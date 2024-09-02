@@ -1,4 +1,4 @@
-/*const Header = (props) => {
+const Header = (props) => {
 return(
   <div>
     <h1>{props.course}</h1></div>
@@ -63,11 +63,6 @@ const App = () => {
 
 export default App; Header; Content; Part; Total
 
-
-
-*/
-
-
 /*
 import { useState } from 'react'
 
@@ -108,9 +103,9 @@ const App = () => {
     </div>
   )
 }
-
 export default App
-*/
+
+
 import { useState } from 'react'
 
 const History = (props) => {
@@ -169,3 +164,4 @@ const App = () => {
   )
 }
 export default App
+*/
