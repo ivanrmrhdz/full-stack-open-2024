@@ -1,18 +1,13 @@
+const Persons = ({ persons, deletePerson }) => {
+  return (
+    <li>
+      {" "}
+      {persons.name} {persons.number + " "}
+      <button type="checkbox" onClick={deletePerson}>
+        delete
+      </button>{" "}
+    </li>
+  );
+};
 
-const Persons = (props) => {
-
-  const persons = props.personsToShow
-    return(
-        <ul>
-        {  
-        persons.map( 
-          persons=> <li key={persons.id}>{persons.name} {persons.number}</li>
-        )
-         }
-
-    </ul>
-    )
-
-}
-
-export default Persons
+export default Persons;
